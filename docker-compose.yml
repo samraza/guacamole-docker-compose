@@ -96,7 +96,7 @@ services:
   # guacd
   guacd:
     container_name: guacd_compose
-    image: guacamole/guacd
+    image: chainguard/guacamole-server:latest
     networks:
       guacnetwork_compose:
     restart: always
